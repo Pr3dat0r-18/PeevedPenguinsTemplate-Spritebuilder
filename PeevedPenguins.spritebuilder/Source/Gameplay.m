@@ -22,6 +22,10 @@
     [_levelNode addChild:level];
 }
 
+- (void)retry {
+    [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
+}
+
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     [self launchPenguin];
 }
