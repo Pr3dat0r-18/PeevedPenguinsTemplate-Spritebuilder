@@ -68,6 +68,14 @@
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
+					<integer>4</integer>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>bodyB</string>
+					<key>type</key>
+					<string>NodeReference</string>
+					<key>value</key>
 					<integer>5</integer>
 				</dict>
 				<dict>
@@ -85,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>10.538742065429688</real>
-						<real>-11.412502288818359</real>
+						<real>164.87580871582031</real>
+						<real>-3.3316214084625244</real>
 					</array>
 				</dict>
 				<dict>
@@ -131,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1349,8 +1359,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
